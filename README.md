@@ -11,5 +11,4 @@ Sou Engenheiro Eletricista :bulb: e FullStack Developer :computer:
  <br/> :email: &nbsp; Entre em contato comigo: 
  
  <br/> &nbsp;&nbsp; [![Linkedin Badge](https://img.shields.io/badge/-Rodolfo%20Londero-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rodolfolondero/)](https://www.linkedin.com/in/rodolfolondero/) 
-|
-[![Gmail Badge](https://img.shields.io/badge/-rodolfopl@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rodolfopl@gmail.com)](mailto:rodolfopl@gmail.com)
+ <br/> &nbsp;&nbsp; [![Gmail Badge](https://img.shields.io/badge/-rodolfopl@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rodolfopl@gmail.com)](mailto:rodolfopl@gmail.com)
