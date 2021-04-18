@@ -1,4 +1,4 @@
-# Rodolfo Londero
+## Olá pessoal! Sou o Rodolfo Londero 👋
 
 <div>
   <a href="https://github.com/rodlondero">
@@ -6,7 +6,6 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodlondero&layout=compact&langs_count=8&theme=algolia"/>
 </div>
  
-## Olá pessoal 👋
 Sou apaixonado por resolver problemas utilizando a programação.
 
 Sou Engenheiro Eletricista :bulb: e FullStack Developer :computer:
