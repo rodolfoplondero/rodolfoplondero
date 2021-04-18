@@ -18,16 +18,16 @@ Sou Engenheiro Eletricista :bulb: e FullStack Developer :computer:
 <br/> :blush: &nbsp; Posso te ajudar com Matlab, OpenDSS, Python, C, PHP, e simulações usando ANSYS
 
 <div style="display: inline_block">
-  <img align="center" height="48px" src="https://camo.githubusercontent.com/3d9ab639c80ecc3828e6f5b6e1f9d43ac32b97ee8fcb8a043a695098aefcaf97/68747470733a2f2f65787465726e616c2d636f6e74656e742e6475636b6475636b676f2e636f6d2f69752f3f753d687474707325334125324625324675706c6f61642e77696b696d656469612e6f726725324677696b697065646961253246636f6d6d6f6e732532463225324632312532464d61746c61625f4c6f676f2e706e6726663d31266e6f66623d31">
-  <img align="center" alt="Python" src="https://icongr.am/devicon/python-original.svg?size=48&color=currentColor"/>
+  <img align="center" height="40px" src="https://camo.githubusercontent.com/3d9ab639c80ecc3828e6f5b6e1f9d43ac32b97ee8fcb8a043a695098aefcaf97/68747470733a2f2f65787465726e616c2d636f6e74656e742e6475636b6475636b676f2e636f6d2f69752f3f753d687474707325334125324625324675706c6f61642e77696b696d656469612e6f726725324677696b697065646961253246636f6d6d6f6e732532463225324632312532464d61746c61625f4c6f676f2e706e6726663d31266e6f66623d31">
+  <img align="center" alt="Python" src="https://icongr.am/devicon/python-original.svg?size=40&color=currentColor"/>
   
-  <img align="center" alt="PHP" src="https://icongr.am/devicon/php-original.svg?size=48&color=currentColor"/> 
+  <img align="center" alt="PHP" src="https://icongr.am/devicon/php-original.svg?size=40&color=currentColor"/> 
   
-  <img align="center" src="https://icongr.am/devicon/html5-original.svg?size=48&color=currentColor"/>
-  <img align="center" src="https://icongr.am/devicon/css3-original.svg?size=48&color=currentColor"/>
-  <img align="center" src="https://icongr.am/devicon/javascript-original.svg?size=48&color=currentColor"/>
-  <img align="center" src="https://icongr.am/devicon/jquery-original.svg?size=60&color=ffffff"/>
-  <img align="center" src="https://icongr.am/devicon/c-original.svg?size=48&color=currentColor"/>
+  <img align="center" src="https://icongr.am/devicon/html5-original.svg?size=40&color=currentColor"/>
+  <img align="center" src="https://icongr.am/devicon/css3-original.svg?size=40&color=currentColor"/>
+  <img align="center" src="https://icongr.am/devicon/javascript-original.svg?size=40&color=currentColor"/>
+  <img align="center" src="https://icongr.am/devicon/jquery-original.svg?size=40&color=ffffff"/>
+  <img align="center" src="https://icongr.am/devicon/c-original.svg?size=40&color=currentColor"/>
 </div
 
 <div style="display: inline_block"><br/>
