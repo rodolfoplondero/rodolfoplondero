@@ -6,19 +6,29 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodlondero&layout=compact&langs_count=8&theme=algolia"/>
   </a>
 </div>
- 
+
+<br>
+
 Sou apaixonado por resolver problemas utilizando a programação.
 
 Sou Engenheiro Eletricista :bulb: e FullStack Developer :computer:
 
- :rocket:  &nbsp; Estou fazendo mestrado na **Universidade Federal de Santa Maria**
- <br/> :purple_heart: &nbsp; Buscando colaborar com projetos de engenharia elétrica, Front-end usando React e Back-end usando PHP
- <br/> :blush: &nbsp; Posso te ajudar com Matlab, OpenDSS, Python, C, PHP, e simulações usando ANSYS
- <br/> :email: &nbsp; Entre em contato comigo: 
+:rocket:  &nbsp; Estou fazendo mestrado na **Universidade Federal de Santa Maria**
+<br/> :purple_heart: &nbsp; Buscando colaborar com projetos de engenharia elétrica, Front-end usando React e Back-end usando PHP
+<br/> :blush: &nbsp; Posso te ajudar com Matlab, OpenDSS, Python, C, PHP, e simulações usando ANSYS
 
-<hr/>
+<div style="display: inline_block"><br>
+  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Rafa-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+  <img align="right" alt="Rafa-yoda" src="https://cdn.discordapp.com/attachments/795358919417397249/825430589581688872/hi.gif">
+</div>
 
- <div>
+
+<div>
   <a href = "mailto: rodolfopl@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/rodolfolondero" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
   <a href="https://instagram.com/rodlondero" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
