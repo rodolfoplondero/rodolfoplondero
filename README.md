@@ -1,5 +1,8 @@
 # Rodolfo Londero
 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rodlondero&show_icons=true&theme=algolia)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rodlondero&layout=default&theme=algolia)](https://github.com/rodlondero/github-readme-stats)
+
 ## Olá pessoal 👋
 Sou apaixonado por resolver problemas utilizando a programação.
 
@@ -13,4 +16,4 @@ Sou Engenheiro Eletricista :bulb: e FullStack Developer :computer:
  <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Gmail Badge](https://img.shields.io/badge/-rodolfopl@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rodolfopl@gmail.com)](mailto:rodolfopl@gmail.com)
 
 
-<h1>Teste</h1>
+
