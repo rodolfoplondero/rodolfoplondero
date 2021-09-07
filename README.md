@@ -10,7 +10,7 @@
 <br>
 
 :rocket:  &nbsp; I am an Electrical Engineer :bulb: and Programmer :computer:, passionate about solving problems using programming.
-<br/> :purple_heart: &nbsp; I seek to collaborate with software development projects related to electrical engineering and venture into the world of web development.
+<br/> :purple_heart: &nbsp; I seek to collaborate with software development projects related to electrical engineering, artificial intelligence and automation, in addition to venturing into the world of web development.
 
 <div style="display: inline_block">
   <img align="center" height="40px" src="https://camo.githubusercontent.com/3d9ab639c80ecc3828e6f5b6e1f9d43ac32b97ee8fcb8a043a695098aefcaf97/68747470733a2f2f65787465726e616c2d636f6e74656e742e6475636b6475636b676f2e636f6d2f69752f3f753d687474707325334125324625324675706c6f61642e77696b696d656469612e6f726725324677696b697065646961253246636f6d6d6f6e732532463225324632312532464d61746c61625f4c6f676f2e706e6726663d31266e6f66623d31">&nbsp;
