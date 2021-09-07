@@ -1,7 +1,10 @@
 # Hey everyone! I'm Rodolfo Londero 👋
 
 :rocket:  &nbsp; I am an Electrical Engineer :bulb: and Programmer :computer:, passionate about solving problems using programming.
-<br/> :purple_heart: &nbsp; I seek to collaborate with software development projects related to electrical engineering, artificial intelligence and automation, in addition to venturing into the world of web development.
+<br/> 
+:purple_heart: &nbsp; I seek to collaborate with software development projects related to electrical engineering, artificial intelligence and automation, in addition to venturing into the world of web development.
+<br>
+:page_with_curl: &nbsp; You can check my [resume](https://drive.google.com/file/d/1Z8pQjp8Gd1oY86xCkAHgEd0DmlSuJ3eI/view?usp=sharing) for more details about work experience.
 
 ## Skills
 
