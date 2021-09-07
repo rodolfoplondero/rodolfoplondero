@@ -1,14 +1,5 @@
 ## Hey everyone! I'm Rodolfo Londero 👋
 
-<div>
-  <a href="https://github.com/rodlondero">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rodolfoplondero&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodolfoplondero&layout=compact&langs_count=8&theme=algolia"/>
-  </a>
-</div>
-
-<br>
-
 :rocket:  &nbsp; I am an Electrical Engineer :bulb: and Programmer :computer:, passionate about solving problems using programming.
 <br/> :purple_heart: &nbsp; I seek to collaborate with software development projects related to electrical engineering, artificial intelligence and automation, in addition to venturing into the world of web development.
 
@@ -38,6 +29,15 @@
 :point_right: Contributing on [py_dss_interface](https://github.com/PauloRadatz/py_dss_interface) package
 
 <hr>
+
+<div>
+  <a href="https://github.com/rodlondero">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rodolfoplondero&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodolfoplondero&layout=compact&langs_count=8&theme=algolia"/>
+  </a>
+</div>
+
+<br> 
 
 <p align="left">
     <img align="center" src="https://komarev.com/ghpvc/?username=rodolfoplondero&label=Profile%20views&color=green&style=flat" alt="rodolfoplondero_" />
