@@ -37,7 +37,7 @@
   <td>
 
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=PostgreSQL)
-![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=MySQL)
+![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=MySQL&logoColor=white)
 ![SQLite](https://img.shields.io/badge/-SQLite-05122A?style=flat&logo=SQLite)
     
   </td>
