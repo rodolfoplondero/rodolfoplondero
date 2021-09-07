@@ -1,28 +1,73 @@
-## Hey everyone! I'm Rodolfo Londero 👋
+# Hey everyone! I'm Rodolfo Londero 👋
 
 :rocket:  &nbsp; I am an Electrical Engineer :bulb: and Programmer :computer:, passionate about solving problems using programming.
 <br/> :purple_heart: &nbsp; I seek to collaborate with software development projects related to electrical engineering, artificial intelligence and automation, in addition to venturing into the world of web development.
 
-<div style="display: inline_block">
-  <img align="center" height="40px" src="https://camo.githubusercontent.com/3d9ab639c80ecc3828e6f5b6e1f9d43ac32b97ee8fcb8a043a695098aefcaf97/68747470733a2f2f65787465726e616c2d636f6e74656e742e6475636b6475636b676f2e636f6d2f69752f3f753d687474707325334125324625324675706c6f61642e77696b696d656469612e6f726725324677696b697065646961253246636f6d6d6f6e732532463225324632312532464d61746c61625f4c6f676f2e706e6726663d31266e6f66623d31">&nbsp;
-  <img align="center" alt="OpenDSS" height="40px" src="https://user-images.githubusercontent.com/4026108/115160975-63243d00-a071-11eb-8392-28fffe3045a2.png"/>&nbsp;
-  <img align="center" alt="Python" src="https://icongr.am/devicon/python-original.svg?size=40&color=currentColor"/>&nbsp;
-  <img align="center" alt="PHP" src="https://icongr.am/devicon/php-original.svg?size=40&color=currentColor"/>&nbsp;
-  <img align="center" src="https://icongr.am/devicon/html5-original.svg?size=40&color=currentColor"/>&nbsp;
-  <img align="center" src="https://icongr.am/devicon/css3-original.svg?size=40&color=currentColor"/>&nbsp;
-  <img align="center" src="https://icongr.am/devicon/javascript-original.svg?size=40&color=currentColor"/>&nbsp;
-  <img align="center" src="https://icongr.am/devicon/jquery-original.svg?size=40&color=ffffff"/>&nbsp;
-  <img align="center" src="https://icongr.am/devicon/c-original.svg?size=40&color=currentColor"/>
-</div
+## Skills
 
-<div style="display: inline_block"><br/>
+<table align="center" style="text-align: left">
+<tr>
+  <th>Programming Languages</th>
+  <th>Frameworks</th>
+  <th>Databases</th>
+  <th>Tools</th>
+  <th>Softwares</th>
+</tr>
+<tr>
+  <td>
+ 
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
+![PHP](https://img.shields.io/badge/-PHP-05122A?style=flat&logo=php)
+![Delphi](https://img.shields.io/badge/-Delphi-05122A?style=flat&logo=delphi)
+![C](https://img.shields.io/badge/-C-05122A?style=flat&logo=C&logoColor=A8B9CC)
+![C++](https://img.shields.io/badge/-C++-05122A?style=flat&logo=C%2B%2B&logoColor=00599C)
+![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)
+![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
+    
+  </td>
+  <td>
+ 
+![Django](https://img.shields.io/badge/-Django-05122A?style=flat&logo=django)
+![Laravel](https://img.shields.io/badge/-Laravel-05122A?style=flat&logo=laravel)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-05122A?style=flat&logo=bootstrap&logoColor=563D7C)
+![JQuery](https://img.shields.io/badge/-JQuery-05122A?style=flat&logo=jquery)
+  
+  </td>
+  <td>
+
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=PostgreSQL)
+![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=MySQL)
+![SQLite](https://img.shields.io/badge/-SQLite-05122A?style=flat&logo=SQLite)
+    
+  </td>
+  <td>
+    
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
+![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
+![Subversion](https://img.shields.io/badge/-Subversion-05122A?style=flat&logo=subversion)   
+    
+  </td>
+  <td>
+    
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)
+![PyCharm](https://img.shields.io/badge/-PyCharm-05122A?style=flat&logo=pycharm)
+![Ansys](https://img.shields.io/badge/-Ansys-05122A?style=flat&logo=ansys)
+![Matlab](https://img.shields.io/badge/-Matlab-05122A?style=flat)
+![OpenDSS](https://img.shields.io/badge/-OpenDSS-05122A?style=flat)
+    
+  </td>
+</tr>
+</table>
+
+## Contact
+  
+<div style="display: inline_block">
   <a href = "mailto: rodolfopl@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/rodolfolondero" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
   <a href="https://instagram.com/rodlondero" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href="https://twitter.com/rplondero" target="_blank"><img src="https://img.shields.io/badge/-Twitter-%23E4405F?style=for-the-badge&logo=twitter&logoColor=white&color=blue" target="_blank"></a>
 </div>
-
-<hr>
 
 ## Currently works
 
@@ -30,6 +75,7 @@
 
 <hr>
 
+## Analytics
 <div>
   <a href="https://github.com/rodlondero">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rodolfoplondero&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
@@ -42,3 +88,4 @@
 <p align="left">
     <img align="center" src="https://komarev.com/ghpvc/?username=rodolfoplondero&label=Profile%20views&color=green&style=flat" alt="rodolfoplondero_" />
 </p>
+
