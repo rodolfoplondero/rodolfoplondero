@@ -74,7 +74,7 @@
 
 ## Currently works
 
-:point_right: Contributing on [py_dss_interface](https://github.com/PauloRadatz/py_dss_interface) package
+:point_right: Contributing on [py_dss_interface](https://github.com/PauloRadatz/py_dss_interface) and [py_dss_tools](https://github.com/PauloRadatz/py_dss_tools) packages.
 
 <hr>
 
