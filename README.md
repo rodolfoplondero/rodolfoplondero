@@ -51,7 +51,7 @@
   </td>
   <td>
     
-![UiPath](https://img.shields.io/badge/-UiPath-0077b5?style=flat)
+![UiPath](https://img.shields.io/badge/-UiPath-05122A?style=flat)
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)
 ![PyCharm](https://img.shields.io/badge/-PyCharm-05122A?style=flat&logo=pycharm)
 ![UiPath](https://img.shields.io/badge/-Ansys-05122A?style=flat&logo=ansys)
