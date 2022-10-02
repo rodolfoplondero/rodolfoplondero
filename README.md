@@ -2,7 +2,7 @@
 
 :rocket:  &nbsp; I am an Electrical Engineer :bulb: and Programmer :computer:, passionate about solving problems using programming.
 <br/> 
-:purple_heart: &nbsp; I seek to collaborate with software development projects related to electrical engineering, artificial intelligence and automation, in addition to venturing into the world of web development.
+:purple_heart: &nbsp; I seek to collaborate with software development projects related artificial intelligence and automation, in addition to venturing into the world of web development.
 <br>
 :page_with_curl: &nbsp; You can check my [resume](https://drive.google.com/file/d/1VD6CiT09DjK9Ve8vKDPcZrD8zFfNSUqI/view?usp=sharing) for more details about work experience.
 
@@ -20,10 +20,10 @@
   <td>
  
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
+![VB.NET](https://img.shields.io/badge/-VB.NET-05122A?style=flat&logo=.net)
+![C#](https://img.shields.io/badge/-CSharp-05122A?style=flat&logo=csharp)
 ![PHP](https://img.shields.io/badge/-PHP-05122A?style=flat&logo=php)
 ![Delphi](https://img.shields.io/badge/-Delphi-05122A?style=flat&logo=delphi)
-![C](https://img.shields.io/badge/-C-05122A?style=flat&logo=C&logoColor=A8B9CC)
-![C++](https://img.shields.io/badge/-C++-05122A?style=flat&logo=C%2B%2B&logoColor=00599C)
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
@@ -33,9 +33,7 @@
  
 ![Django](https://img.shields.io/badge/-Django-05122A?style=flat&logo=django)
 ![Laravel](https://img.shields.io/badge/-Laravel-05122A?style=flat&logo=laravel)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-05122A?style=flat&logo=bootstrap&logoColor=563D7C)
-![JQuery](https://img.shields.io/badge/-JQuery-05122A?style=flat&logo=jquery)
-  
+
   </td>
   <td>
 
@@ -55,7 +53,7 @@
     
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)
 ![PyCharm](https://img.shields.io/badge/-PyCharm-05122A?style=flat&logo=pycharm)
-![Ansys](https://img.shields.io/badge/-Ansys-05122A?style=flat&logo=ansys)
+![UiPath](https://img.shields.io/badge/-Ansys-05122A?style=flat&logo=ansys)
 ![Matlab](https://img.shields.io/badge/-Matlab-05122A?style=flat)
 ![OpenDSS](https://img.shields.io/badge/-OpenDSS-05122A?style=flat)
     
