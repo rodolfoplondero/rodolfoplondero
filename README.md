@@ -19,44 +19,44 @@
 <tr>
   <td>
  
-![Python](https://img.shields.io/badge/-Python-1f1500?style=flat&logo=python)
-![VB.NET](https://img.shields.io/badge/-VB.NET-1f1500?style=flat&logo=.net)
-![C#](https://img.shields.io/badge/-CSharp-1f1500?style=flat&logo=csharp)
-![PHP](https://img.shields.io/badge/-PHP-1f1500?style=flat&logo=php)
-![Delphi](https://img.shields.io/badge/-Delphi-1f1500?style=flat&logo=delphi)
-![HTML](https://img.shields.io/badge/-HTML-1f1500?style=flat&logo=HTML5)
-![CSS](https://img.shields.io/badge/-CSS-1f1500?style=flat&logo=CSS3&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/-JavaScript-1f1500?style=flat&logo=javascript)
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
+![VB.NET](https://img.shields.io/badge/-VB.NET-05122A?style=flat&logo=.net)
+![C#](https://img.shields.io/badge/-CSharp-05122A?style=flat&logo=csharp)
+![PHP](https://img.shields.io/badge/-PHP-05122A?style=flat&logo=php)
+![Delphi](https://img.shields.io/badge/-Delphi-05122A?style=flat&logo=delphi)
+![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)
+![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
     
   </td>
   <td>
  
-![Django](https://img.shields.io/badge/-Django-1f1500?style=flat&logo=django)
-![Laravel](https://img.shields.io/badge/-Laravel-1f1500?style=flat&logo=laravel)
+![Django](https://img.shields.io/badge/-Django-05122A?style=flat&logo=django)
+![Laravel](https://img.shields.io/badge/-Laravel-05122A?style=flat&logo=laravel)
 
   </td>
   <td>
 
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-1f1500?style=flat&logo=PostgreSQL)
-![MySQL](https://img.shields.io/badge/-MySQL-1f1500?style=flat&logo=MySQL&logoColor=white)
-![SQLite](https://img.shields.io/badge/-SQLite-1f1500?style=flat&logo=SQLite)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=PostgreSQL)
+![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=MySQL&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-05122A?style=flat&logo=SQLite)
     
   </td>
   <td>
     
-![Git](https://img.shields.io/badge/-Git-1f1500?style=flat&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-1f1500?style=flat&logo=github)
-![Subversion](https://img.shields.io/badge/-Subversion-1f1500?style=flat&logo=subversion)   
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
+![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
+![Subversion](https://img.shields.io/badge/-Subversion-05122A?style=flat&logo=subversion)   
     
   </td>
   <td>
     
-![UiPath](https://img.shields.io/badge/-UiPath-1f1500?style=flat)
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-1f1500?style=flat&logo=visual-studio-code&logoColor=007ACC)
-![PyCharm](https://img.shields.io/badge/-PyCharm-1f1500?style=flat&logo=pycharm)
-![UiPath](https://img.shields.io/badge/-Ansys-1f1500?style=flat&logo=ansys)
-![Matlab](https://img.shields.io/badge/-Matlab-1f1500?style=flat)
-![OpenDSS](https://img.shields.io/badge/-OpenDSS-1f1500?style=flat)
+![UiPath](https://img.shields.io/badge/-UiPath-05122A?style=flat)
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)
+![PyCharm](https://img.shields.io/badge/-PyCharm-05122A?style=flat&logo=pycharm)
+![UiPath](https://img.shields.io/badge/-Ansys-05122A?style=flat&logo=ansys)
+![Matlab](https://img.shields.io/badge/-Matlab-05122A?style=flat)
+![OpenDSS](https://img.shields.io/badge/-OpenDSS-05122A?style=flat)
     
   </td>
 </tr>
@@ -65,10 +65,10 @@
 ## Contact
   
 <div style="display: inline_block">
-  <a href = "mailto: rodolfopl@gmail.com"><img src="https://img.shields.io/badge/-mail-1f1500?style=flat&logo=gmail" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/rodolfolondero" target="_blank"><img src="https://img.shields.io/badge/-rodolfolondero-1f1500?style=flat&logo=linkedin" target="_blank"></a>
-  <a href="https://instagram.com/rodolfoplondero" target="_blank"><img src="https://img.shields.io/badge/-rodolfoplondero-1f1500?style=flat&logo=instagram" target="_blank"></a>
-  <a href="https://twitter.com/rplondero" target="_blank"><img src="https://img.shields.io/badge/-rplondero-1f1500?style=flat&logo=twitter" target="_blank"></a>
+  <a href = "mailto: rodolfopl@gmail.com"><img src="https://img.shields.io/badge/-mail-05122A?style=flat&logo=gmail" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/rodolfolondero" target="_blank"><img src="https://img.shields.io/badge/-rodolfolondero-05122A?style=flat&logo=linkedin" target="_blank"></a>
+  <a href="https://instagram.com/rodolfoplondero" target="_blank"><img src="https://img.shields.io/badge/-rodolfoplondero-05122A?style=flat&logo=instagram" target="_blank"></a>
+  <a href="https://twitter.com/rplondero" target="_blank"><img src="https://img.shields.io/badge/-rplondero-05122A?style=flat&logo=twitter" target="_blank"></a>
 </div>
 
 ## Currently works
