@@ -4,7 +4,7 @@
 <br/> 
 :purple_heart: &nbsp; I seek to collaborate with software development projects related artificial intelligence and automation, in addition to venturing into the world of web development.
 <br>
-:page_with_curl: &nbsp; You can check my <a href="https://drive.google.com/file/d/1bGUSTA_Y4KJDX3fq8C1ada_A77R3smDY/view?usp=sharing" target='_blank'>CV</a> for more details about work experience.
+:page_with_curl: &nbsp; You can check my [CV](https://drive.google.com/file/d/1bGUSTA_Y4KJDX3fq8C1ada_A77R3smDY/view?usp=sharing) for more details about work experience.
 
 ## Skills
 
