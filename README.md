@@ -65,10 +65,10 @@
 ## Contact
   
 <div style="display: inline_block">
-  <a href="mailto: rodolfopl@gmail.com"><img src="https://img.shields.io/badge/-mail-D14836?style=flat&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="mailto: rodolfopl@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-mail-D14836?style=flat&logo=gmail&logoColor=white"></a>
   <a href="https://linkedin.com/in/rodolfolondero" target="_blank"><img alt="Linkedin" src="https://img.shields.io/badge/in%2Frodolfolondero-0077B5?style=flat"></a>
-  <a href="https://instagram.com/rodolfoplondero"><img alt="Instagram" src="https://img.shields.io/badge/-rodolfoplondero-E4405F?style=flat&logo=instagram" target="_blank"></a>
-  <a href="https://x.com/rlondero" target="_blank"><img alt="X" src="https://img.shields.io/badge/-rplondero-000000?style=flat&logo=x&logoColor=white"></a>
+  <a href="https://instagram.com/rodolfoplondero" target="_blank"><img alt="Instagram" src="https://img.shields.io/badge/-rodolfoplondero-E4405F?style=flat&logo=instagram"></a>
+  <a href="https://x.com/rplondero" target="_blank"><img alt="X" src="https://img.shields.io/badge/-rplondero-000000?style=flat&logo=x&logoColor=white"></a>
 </div>
 
 
