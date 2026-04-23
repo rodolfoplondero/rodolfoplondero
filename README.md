@@ -24,7 +24,7 @@ Welcome! I specialize in automating business processes and optimizing workflows 
 
 ## 🌟 Open Source Contributions
 
-- Contributing to [py_dss_interface](https://github.com/rogerreis/py_dss_interface) and [py_dss_tools](https://github.com/rogerreis/py_dss_tools) packages.
+- Contributing to [py_dss_interface](https://github.com/PauloRadatz/py_dss_interface).
 
 ---
 
