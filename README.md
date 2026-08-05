@@ -86,16 +86,16 @@ My background is in Electrical Engineering (M.Sc., UFSM), which is why you'll fi
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=rodolfoplondero&show_icons=true&hide_border=true&theme=tokyonight&cache_seconds=86400">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=rodolfoplondero&show_icons=true&hide_border=true&theme=default&cache_seconds=86400">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=rodolfoplondero&show_icons=true&hide_border=true&cache_seconds=86400" alt="Rodolfo's GitHub stats">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+    <img height="165" src="assets/stats-light.svg" alt="Public repositories, stars earned, followers and languages used">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rodolfoplondero&layout=compact&hide_border=true&theme=tokyonight&cache_seconds=86400">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rodolfoplondero&layout=compact&hide_border=true&theme=default&cache_seconds=86400">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodolfoplondero&layout=compact&hide_border=true&cache_seconds=86400" alt="Top languages">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg">
+    <img height="165" src="assets/langs-light.svg" alt="Most used languages">
   </picture>
 </p>
+
+<sub align="center">Regenerated weekly by <a href=".github/workflows/stats.yml">a workflow in this repository</a>, so the cards do not depend on a third-party service being up.</sub>
 
 ---
 

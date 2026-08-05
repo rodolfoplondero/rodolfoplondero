@@ -25,18 +25,13 @@ jobs:
         with:
           # --no-progress keeps the log readable in CI.
           #
-          # Exclusions, all of them hosts that fail for reasons unrelated to a
-          # broken link:
-          #   - instagram/x: block automated requests outright
-          #   - github-readme-stats: the public instance is rate limited and
-          #     answers 503 under load, which is an availability problem on
-          #     their side, not a bad URL in this repo
-          # Everything else must resolve, including the project links, the
-          # personal site and the Credly credential.
+          # Instagram and X block automated requests outright, so they are
+          # excluded to avoid false failures. Everything else must resolve,
+          # including the project links, the personal site, the Credly
+          # credential and the local stat card SVGs.
           args: >-
             --no-progress
             --max-retries 3
             --exclude '^https?://(www\.)?(instagram\.com|x\.com|twitter\.com)'
-            --exclude '^https?://github-readme-stats\.vercel\.app'
             README.md README.pt-BR.md
           fail: true
