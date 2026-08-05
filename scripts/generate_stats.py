@@ -124,15 +124,17 @@ def fetch_data(user: str, token: str | None) -> dict:
 
     owned = [r for r in repos if not r.get("fork")]
 
-    languages: dict[str, int] = {}
+    per_repo: list[dict[str, int]] = []
     for repo in owned:
         if repo.get("size", 0) == 0:
             continue
         try:
-            for name, count in api_get(repo["languages_url"], token).items():
-                languages[name] = languages.get(name, 0) + count
+            breakdown = api_get(repo["languages_url"], token)
         except urllib.error.HTTPError as error:
             print(f"  ! languages for {repo['name']}: {error}", file=sys.stderr)
+            continue
+        if breakdown:
+            per_repo.append(breakdown)
 
     return {
         "name": profile.get("name") or user,
@@ -140,8 +142,33 @@ def fetch_data(user: str, token: str | None) -> dict:
         "followers": profile.get("followers", 0),
         "stars": sum(r.get("stargazers_count", 0) for r in owned),
         "own_repos": len(owned),
-        "languages": languages,
+        "per_repo_languages": per_repo,
     }
+
+
+def aggregate_languages(data: dict, weight: str, exclude: set[str]) -> dict[str, float]:
+    """Combine the per-repository language breakdowns into one distribution.
+
+    Counting raw bytes lets a single repository decide the whole card: Jupyter
+    notebooks embed their output and generated HTML runs to megabytes, so those
+    two alone drowned out every language actually written by hand. Under the
+    default 'repo' weighting each repository contributes the same total, so the
+    card reflects what gets worked in rather than what serialises large.
+    """
+    per_repo = data.get("per_repo_languages")
+    if per_repo is None:  # fixture written against the older shape
+        return {k: float(v) for k, v in data.get("languages", {}).items() if k not in exclude}
+
+    totals: dict[str, float] = {}
+    for breakdown in per_repo:
+        filtered = {k: v for k, v in breakdown.items() if k not in exclude}
+        total = sum(filtered.values())
+        if not total:
+            continue
+        for name, count in filtered.items():
+            share = count / total if weight == "repo" else count
+            totals[name] = totals.get(name, 0.0) + share
+    return totals
 
 
 def card(width: int, height: int, title: str, body: str, theme: dict) -> str:
@@ -227,12 +254,27 @@ def main() -> int:
     parser.add_argument("--user", required=True)
     parser.add_argument("--out", default="assets")
     parser.add_argument("--fixture", help="Read stats from a JSON file instead of the API")
+    parser.add_argument(
+        "--weight",
+        choices=("repo", "bytes"),
+        default="repo",
+        help="'repo' gives every repository equal say (default); 'bytes' counts raw size",
+    )
+    parser.add_argument(
+        "--exclude-language",
+        action="append",
+        default=[],
+        metavar="NAME",
+        help="Drop a language entirely; repeatable",
+    )
     args = parser.parse_args()
 
     if args.fixture:
         data = json.loads(Path(args.fixture).read_text())
     else:
         data = fetch_data(args.user, os.environ.get("GITHUB_TOKEN"))
+
+    data["languages"] = aggregate_languages(data, args.weight, set(args.exclude_language))
 
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
