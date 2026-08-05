@@ -102,6 +102,50 @@ My background is in Electrical Engineering (M.Sc., UFSM), which is why you'll fi
 <p align="center"><sub>Regenerated weekly by <a href=".github/workflows/stats.yml">a workflow in this repository</a>. Click either card for the <a href="https://rodolfoplondero.github.io/#analytics">interactive version</a>.</sub></p>
 
 <!-- stats:start -->
+
+<details>
+<summary>Full breakdown</summary>
+
+| Language | Share |
+| --- | ---: |
+| Python | 38.6% |
+| Jupyter Notebook | 17.1% |
+| HTML | 10.1% |
+| JavaScript | 9.5% |
+| C# | 6.2% |
+| Dart | 6.1% |
+| TypeScript | 5.8% |
+| Kotlin | 3.7% |
+| CSS | 2.2% |
+| C | 0.2% |
+| Swift | 0.1% |
+| Rich Text Format | 0.1% |
+| MATLAB | 0.1% |
+| Makefile | 0.1% |
+| PowerShell | 0.0% |
+| Batchfile | 0.0% |
+| Objective-C | 0.0% |
+| C++ | 0.0% |
+| Java | 0.0% |
+| Shell | 0.0% |
+
+**Most starred repositories**
+
+| Repository | Stars |
+| --- | ---: |
+| [opendss-codes](https://github.com/rodolfoplondero/opendss-codes) | 2 |
+| [rodolfoplondero](https://github.com/rodolfoplondero/rodolfoplondero) | 1 |
+| [algoritmos-ordenacao](https://github.com/rodolfoplondero/algoritmos-ordenacao) | 0 |
+| [alura-flutter-task-app](https://github.com/rodolfoplondero/alura-flutter-task-app) | 0 |
+| [alurakut](https://github.com/rodolfoplondero/alurakut) | 0 |
+| [calculo-energia-incidente](https://github.com/rodolfoplondero/calculo-energia-incidente) | 0 |
+| [curso-kotlin-udemy](https://github.com/rodolfoplondero/curso-kotlin-udemy) | 0 |
+| [exercicios-python](https://github.com/rodolfoplondero/exercicios-python) | 0 |
+
+<sub>Share is normalised per repository so every project counts equally — counting bytes would let notebooks and generated HTML dominate.</sub>
+
+</details>
+
 <!-- stats:end -->
 
 ---

@@ -1,0 +1,278 @@
+{
+  "generated_at": "2026-08-05T02:11:50Z",
+  "profile": {
+    "name": "Rodolfo Londero",
+    "login": "rodolfoplondero",
+    "public_repos": 27,
+    "followers": 26,
+    "stars": 3,
+    "own_repos": 20
+  },
+  "languages": [
+    {
+      "name": "Python",
+      "share": 0.38632664954854035
+    },
+    {
+      "name": "Jupyter Notebook",
+      "share": 0.17117763678775316
+    },
+    {
+      "name": "HTML",
+      "share": 0.10060238393846706
+    },
+    {
+      "name": "JavaScript",
+      "share": 0.09471018812044897
+    },
+    {
+      "name": "C#",
+      "share": 0.0625
+    },
+    {
+      "name": "Dart",
+      "share": 0.06051484255412202
+    },
+    {
+      "name": "TypeScript",
+      "share": 0.05813675629858068
+    },
+    {
+      "name": "Kotlin",
+      "share": 0.03690821309561501
+    },
+    {
+      "name": "CSS",
+      "share": 0.02249182894996045
+    },
+    {
+      "name": "C",
+      "share": 0.0015549754744614305
+    },
+    {
+      "name": "Swift",
+      "share": 0.0013803848677017274
+    },
+    {
+      "name": "Rich Text Format",
+      "share": 0.0008994783740721335
+    },
+    {
+      "name": "MATLAB",
+      "share": 0.0008970808516876443
+    },
+    {
+      "name": "Makefile",
+      "share": 0.0008887490097690862
+    },
+    {
+      "name": "PowerShell",
+      "share": 0.00035098567301855197
+    },
+    {
+      "name": "Batchfile",
+      "share": 0.00033622856156733847
+    },
+    {
+      "name": "Objective-C",
+      "share": 0.00012983818062541001
+    },
+    {
+      "name": "C++",
+      "share": 0.00011886123891969608
+    },
+    {
+      "name": "Java",
+      "share": 6.364685572409512e-05
+    },
+    {
+      "name": "Shell",
+      "share": 1.1271618965175205e-05
+    }
+  ],
+  "repositories": [
+    {
+      "name": "opendss-codes",
+      "url": "https://github.com/rodolfoplondero/opendss-codes",
+      "description": "Contém códigos elaborados em cursos e tutoriais sobre o OpenDSS",
+      "stars": 2,
+      "pushed_at": "2021-05-30T21:47:10Z",
+      "languages": {
+        "Python": 6168
+      }
+    },
+    {
+      "name": "rodolfoplondero",
+      "url": "https://github.com/rodolfoplondero/rodolfoplondero",
+      "description": "",
+      "stars": 1,
+      "pushed_at": "2026-08-05T02:11:31Z",
+      "languages": {
+        "Python": 10044
+      }
+    },
+    {
+      "name": "algoritmos-ordenacao",
+      "url": "https://github.com/rodolfoplondero/algoritmos-ordenacao",
+      "description": "",
+      "stars": 0,
+      "pushed_at": "2022-10-15T16:34:14Z",
+      "languages": {
+        "Jupyter Notebook": 2435671
+      }
+    },
+    {
+      "name": "alura-flutter-task-app",
+      "url": "https://github.com/rodolfoplondero/alura-flutter-task-app",
+      "description": "",
+      "stars": 0,
+      "pushed_at": "2023-02-12T22:02:39Z",
+      "languages": {
+        "Dart": 17711,
+        "Swift": 404,
+        "Kotlin": 139,
+        "Objective-C": 38
+      }
+    },
+    {
+      "name": "alurakut",
+      "url": "https://github.com/rodolfoplondero/alurakut",
+      "description": "",
+      "stars": 0,
+      "pushed_at": "2021-07-16T19:18:09Z",
+      "languages": {
+        "JavaScript": 22683
+      }
+    },
+    {
+      "name": "calculo-energia-incidente",
+      "url": "https://github.com/rodolfoplondero/calculo-energia-incidente",
+      "description": "Código utilizado para calcular a Energia Incidente utilizando a metodologia da norma ASTM-F1959, através da leitura de arquivos gerados pelo software ANSYS Fluent",
+      "stars": 0,
+      "pushed_at": "2022-10-15T16:32:48Z",
+      "languages": {
+        "Python": 16539
+      }
+    },
+    {
+      "name": "curso-kotlin-udemy",
+      "url": "https://github.com/rodolfoplondero/curso-kotlin-udemy",
+      "description": "",
+      "stars": 0,
+      "pushed_at": "2022-12-17T20:56:31Z",
+      "languages": {
+        "Kotlin": 120210,
+        "HTML": 76764,
+        "JavaScript": 5252,
+        "CSS": 3780,
+        "Java": 210
+      }
+    },
+    {
+      "name": "exercicios-python",
+      "url": "https://github.com/rodolfoplondero/exercicios-python",
+      "description": "",
+      "stars": 0,
+      "pushed_at": "2022-10-02T18:37:53Z",
+      "languages": {
+        "Jupyter Notebook": 59691,
+        "Python": 7190
+      }
+    },
+    {
+      "name": "mestrado-codes",
+      "url": "https://github.com/rodolfoplondero/mestrado-codes",
+      "description": "Códigos utilizados para simulação de arcos elétricos com Ansys Fluent",
+      "stars": 0,
+      "pushed_at": "2022-09-30T19:15:53Z",
+      "languages": {
+        "Jupyter Notebook": 946576,
+        "Python": 109665,
+        "C": 27826,
+        "Rich Text Format": 16096,
+        "Makefile": 15904,
+        "C++": 2127,
+        "Batchfile": 232
+      }
+    },
+    {
+      "name": "nlw-copa",
+      "url": "https://github.com/rodolfoplondero/nlw-copa",
+      "description": "Projeto NLW Copa 2022",
+      "stars": 0,
+      "pushed_at": "2022-11-06T17:34:41Z",
+      "languages": {
+        "TypeScript": 51578,
+        "CSS": 2380,
+        "JavaScript": 1481,
+        "Shell": 10
+      }
+    },
+    {
+      "name": "plot_residuals",
+      "url": "https://github.com/rodolfoplondero/plot_residuals",
+      "description": "",
+      "stars": 0,
+      "pushed_at": "2021-06-02T18:32:03Z",
+      "languages": {
+        "HTML": 3588227,
+        "Python": 2910
+      }
+    },
+    {
+      "name": "py_automated_folders",
+      "url": "https://github.com/rodolfoplondero/py_automated_folders",
+      "description": "Create a folder structure for a project",
+      "stars": 0,
+      "pushed_at": "2021-09-02T14:54:46Z",
+      "languages": {
+        "Python": 3279
+      }
+    },
+    {
+      "name": "py_dss_vis",
+      "url": "https://github.com/rodolfoplondero/py_dss_vis",
+      "description": "",
+      "stars": 0,
+      "pushed_at": "2021-10-16T01:46:57Z",
+      "languages": {
+        "Python": 759
+      }
+    },
+    {
+      "name": "RocketseatAuction",
+      "url": "https://github.com/rodolfoplondero/RocketseatAuction",
+      "description": "Projeto desenvolvido na NLW de Fev/24",
+      "stars": 0,
+      "pushed_at": "2024-02-08T23:08:30Z",
+      "languages": {
+        "C#": 14874
+      }
+    },
+    {
+      "name": "rodolfoplondero.github.io",
+      "url": "https://github.com/rodolfoplondero/rodolfoplondero.github.io",
+      "description": "",
+      "stars": 0,
+      "pushed_at": "2026-07-31T14:31:51Z",
+      "languages": {
+        "JavaScript": 31976,
+        "CSS": 20615,
+        "HTML": 16444
+      }
+    },
+    {
+      "name": "Simulacao_SST",
+      "url": "https://github.com/rodolfoplondero/Simulacao_SST",
+      "description": "",
+      "stars": 0,
+      "pushed_at": "2024-03-08T21:44:45Z",
+      "languages": {
+        "Python": 518696,
+        "MATLAB": 7637,
+        "PowerShell": 2988,
+        "Batchfile": 2752
+      }
+    }
+  ]
+}
