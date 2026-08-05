@@ -6,23 +6,23 @@
   <clipPath id="bar"><rect x="25" y="55" width="290" height="10" rx="5"/></clipPath>
   <rect x="25" y="55" width="290" height="10" rx="5" fill="#21262d"/>
   <g clip-path="url(#bar)">
-    <rect x="25.00" y="55" width="100.17" height="10" fill="#3572A5"/>
-    <rect x="125.17" y="55" width="52.95" height="10" fill="#DA5B0B"/>
-    <rect x="178.12" y="55" width="31.12" height="10" fill="#e34c26"/>
-    <rect x="209.24" y="55" width="29.30" height="10" fill="#f1e05a"/>
-    <rect x="238.54" y="55" width="19.33" height="10" fill="#178600"/>
-    <rect x="257.87" y="55" width="18.72" height="10" fill="#00B4AB"/>
+    <rect x="25.00" y="55" width="112.03" height="10" fill="#3572A5"/>
+    <rect x="137.03" y="55" width="49.64" height="10" fill="#DA5B0B"/>
+    <rect x="186.68" y="55" width="29.17" height="10" fill="#e34c26"/>
+    <rect x="215.85" y="55" width="27.47" height="10" fill="#f1e05a"/>
+    <rect x="243.32" y="55" width="18.12" height="10" fill="#178600"/>
+    <rect x="261.44" y="55" width="17.55" height="10" fill="#00B4AB"/>
   </g>
   <circle cx="30" cy="86" r="5" fill="#3572A5"/>
-  <text x="41" y="90" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">Python <tspan fill="#8b949e">34.5%</tspan></text>
+  <text x="41" y="90" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">Python <tspan fill="#8b949e">38.6%</tspan></text>
   <circle cx="180" cy="86" r="5" fill="#DA5B0B"/>
-  <text x="191" y="90" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">Jupyter Notebook <tspan fill="#8b949e">18.3%</tspan></text>
+  <text x="191" y="90" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">Jupyter Notebook <tspan fill="#8b949e">17.1%</tspan></text>
   <circle cx="30" cy="108" r="5" fill="#e34c26"/>
-  <text x="41" y="112" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">HTML <tspan fill="#8b949e">10.7%</tspan></text>
+  <text x="41" y="112" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">HTML <tspan fill="#8b949e">10.1%</tspan></text>
   <circle cx="180" cy="108" r="5" fill="#f1e05a"/>
-  <text x="191" y="112" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">JavaScript <tspan fill="#8b949e">10.1%</tspan></text>
+  <text x="191" y="112" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">JavaScript <tspan fill="#8b949e">9.5%</tspan></text>
   <circle cx="30" cy="130" r="5" fill="#178600"/>
-  <text x="41" y="134" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">C# <tspan fill="#8b949e">6.7%</tspan></text>
+  <text x="41" y="134" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">C# <tspan fill="#8b949e">6.2%</tspan></text>
   <circle cx="180" cy="130" r="5" fill="#00B4AB"/>
-  <text x="191" y="134" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">Dart <tspan fill="#8b949e">6.5%</tspan></text>
+  <text x="191" y="134" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">Dart <tspan fill="#8b949e">6.1%</tspan></text>
 </svg>
