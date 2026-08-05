@@ -26,6 +26,7 @@ import os
 import sys
 import urllib.error
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -124,7 +125,7 @@ def fetch_data(user: str, token: str | None) -> dict:
 
     owned = [r for r in repos if not r.get("fork")]
 
-    per_repo: list[dict[str, int]] = []
+    repositories: list[dict] = []
     for repo in owned:
         if repo.get("size", 0) == 0:
             continue
@@ -133,16 +134,29 @@ def fetch_data(user: str, token: str | None) -> dict:
         except urllib.error.HTTPError as error:
             print(f"  ! languages for {repo['name']}: {error}", file=sys.stderr)
             continue
-        if breakdown:
-            per_repo.append(breakdown)
+        if not breakdown:
+            continue
+        repositories.append(
+            {
+                "name": repo["name"],
+                "url": repo["html_url"],
+                "description": repo.get("description") or "",
+                "stars": repo.get("stargazers_count", 0),
+                "pushed_at": repo.get("pushed_at"),
+                "languages": breakdown,
+            }
+        )
+
+    repositories.sort(key=lambda r: (-r["stars"], r["name"].lower()))
 
     return {
         "name": profile.get("name") or user,
+        "login": user,
         "public_repos": profile.get("public_repos", 0),
         "followers": profile.get("followers", 0),
         "stars": sum(r.get("stargazers_count", 0) for r in owned),
         "own_repos": len(owned),
-        "per_repo_languages": per_repo,
+        "repositories": repositories,
     }
 
 
@@ -155,13 +169,13 @@ def aggregate_languages(data: dict, weight: str, exclude: set[str]) -> dict[str,
     default 'repo' weighting each repository contributes the same total, so the
     card reflects what gets worked in rather than what serialises large.
     """
-    per_repo = data.get("per_repo_languages")
-    if per_repo is None:  # fixture written against the older shape
+    repositories = data.get("repositories")
+    if repositories is None:  # fixture written against the older shape
         return {k: float(v) for k, v in data.get("languages", {}).items() if k not in exclude}
 
     totals: dict[str, float] = {}
-    for breakdown in per_repo:
-        filtered = {k: v for k, v in breakdown.items() if k not in exclude}
+    for repo in repositories:
+        filtered = {k: v for k, v in repo["languages"].items() if k not in exclude}
         total = sum(filtered.values())
         if not total:
             continue
@@ -171,9 +185,27 @@ def aggregate_languages(data: dict, weight: str, exclude: set[str]) -> dict[str,
     return totals
 
 
+# GitHub renders README images through <img>, which the SVG Integration spec
+# puts in "secure animated mode": declarative animation runs, but the document
+# may not act interactively, so :hover and click never fire. Everything below
+# is therefore entrance animation only — the interactive version of these
+# charts lives on the personal site, which is a real page and can use script.
+ANIMATION_CSS = """  <style>
+    .fade { opacity: 0; animation: fade-in .5s ease-out forwards; }
+    .grow { transform: scaleX(0); transform-origin: left center;
+            animation: grow-in .9s cubic-bezier(.2,.8,.2,1) forwards; }
+    @keyframes fade-in { to { opacity: 1; } }
+    @keyframes grow-in { to { transform: scaleX(1); } }
+    @media (prefers-reduced-motion: reduce) {
+      .fade, .grow { animation: none; opacity: 1; transform: none; }
+    }
+  </style>"""
+
+
 def card(width: int, height: int, title: str, body: str, theme: dict) -> str:
     return f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" \
 xmlns="http://www.w3.org/2000/svg" role="img">
+{ANIMATION_CSS}
   <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="6"
         fill="{theme['bg']}" stroke="{theme['border']}"/>
   <text x="25" y="35" font-family="{FONT}" font-size="16" font-weight="600"
@@ -192,14 +224,16 @@ def render_stats(data: dict, theme: dict) -> str:
     ]
     lines = []
     y = 70
-    for label, value in rows:
+    for index, (label, value) in enumerate(rows):
+        delay = f'style="animation-delay: {index * 0.12:.2f}s"'
         lines.append(
-            f'  <text x="25" y="{y}" font-family="{FONT}" font-size="14" '
-            f'fill="{theme["muted"]}">{escape(label)}</text>'
+            f'  <text class="fade" {delay} x="25" y="{y}" font-family="{FONT}" '
+            f'font-size="14" fill="{theme["muted"]}">{escape(label)}</text>'
         )
         lines.append(
-            f'  <text x="395" y="{y}" font-family="{FONT}" font-size="14" '
-            f'font-weight="600" text-anchor="end" fill="{theme["text"]}">{value}</text>'
+            f'  <text class="fade" {delay} x="395" y="{y}" font-family="{FONT}" '
+            f'font-size="14" font-weight="600" text-anchor="end" '
+            f'fill="{theme["text"]}">{value}</text>'
         )
         y += 27
     title = f"{data['name']}'s GitHub stats"
@@ -222,7 +256,9 @@ def render_languages(data: dict, theme: dict, top: int = 6) -> str:
     # Stacked bar, clipped to rounded corners so the ends stay smooth.
     parts.append('  <clipPath id="bar"><rect x="25" y="55" width="290" height="10" rx="5"/></clipPath>')
     parts.append(f'  <rect x="25" y="55" width="290" height="10" rx="5" fill="{theme["track"]}"/>')
-    parts.append('  <g clip-path="url(#bar)">')
+    # The whole bar grows from the left as one group, so the segments keep
+    # their proportions throughout the animation instead of sliding apart.
+    parts.append('  <g class="grow" clip-path="url(#bar)">')
     offset = 25.0
     for name, count in shown:
         width = 290 * count / total
@@ -239,14 +275,84 @@ def render_languages(data: dict, theme: dict, top: int = 6) -> str:
         x = 25 + column * 150
         y = 90 + row * 22
         share = 100 * count / total
-        parts.append(f'  <circle cx="{x + 5}" cy="{y - 4}" r="5" fill="{language_colour(name)}"/>')
+        delay = f'style="animation-delay: {0.35 + index * 0.08:.2f}s"'
         parts.append(
-            f'  <text x="{x + 16}" y="{y}" font-family="{FONT}" font-size="12" '
-            f'fill="{theme["text"]}">{escape(name)} <tspan fill="{theme["muted"]}">'
-            f"{share:.1f}%</tspan></text>"
+            f'  <circle class="fade" {delay} cx="{x + 5}" cy="{y - 4}" r="5" '
+            f'fill="{language_colour(name)}"/>'
+        )
+        parts.append(
+            f'  <text class="fade" {delay} x="{x + 16}" y="{y}" font-family="{FONT}" '
+            f'font-size="12" fill="{theme["text"]}">{escape(name)} '
+            f'<tspan fill="{theme["muted"]}">{share:.1f}%</tspan></text>'
         )
 
     return card(340, 165, "Most used languages", "\n".join(parts), theme)
+
+
+START = "<!-- stats:start -->"
+END = "<!-- stats:end -->"
+
+
+def render_details(data: dict, portuguese: bool) -> str:
+    """Build the collapsible block the READMEs keep between the markers.
+
+    <details> is the one genuinely interactive element GitHub allows in a
+    README, so the full breakdown lives behind a disclosure triangle instead of
+    lengthening the page for everyone.
+    """
+    languages = sorted(data["languages"].items(), key=lambda kv: kv[1], reverse=True)
+    total = sum(count for _, count in languages) or 1
+    repositories = data.get("repositories", [])[:8]
+
+    if portuguese:
+        summary = "Detalhamento completo"
+        lang_head, share_head = "Linguagem", "Participação"
+        repo_head, star_head = "Repositório", "Estrelas"
+        repos_title = "Repositórios com mais estrelas"
+        note = (
+            "Participação normalizada por repositório, então cada projeto conta igual — "
+            "contagem por bytes deixaria notebooks e HTML gerado dominarem o resultado."
+        )
+    else:
+        summary = "Full breakdown"
+        lang_head, share_head = "Language", "Share"
+        repo_head, star_head = "Repository", "Stars"
+        repos_title = "Most starred repositories"
+        note = (
+            "Share is normalised per repository so every project counts equally — "
+            "counting bytes would let notebooks and generated HTML dominate."
+        )
+
+    lines = [START, "", "<details>", f"<summary>{summary}</summary>", ""]
+    lines.append(f"| {lang_head} | {share_head} |")
+    lines.append("| --- | ---: |")
+    for name, count in languages:
+        lines.append(f"| {name} | {100 * count / total:.1f}% |")
+
+    if repositories:
+        lines += ["", f"**{repos_title}**", "", f"| {repo_head} | {star_head} |", "| --- | ---: |"]
+        for repo in repositories:
+            lines.append(f"| [{repo['name']}]({repo['url']}) | {repo['stars']} |")
+
+    lines += ["", f"<sub>{note}</sub>", "", "</details>", "", END]
+    return "\n".join(lines)
+
+
+def update_readme(path: Path, data: dict) -> bool:
+    if not path.exists():
+        return False
+    text = path.read_text()
+    if START not in text or END not in text:
+        print(f"  ! {path} has no stats markers, skipping", file=sys.stderr)
+        return False
+    before, _, rest = text.partition(START)
+    _, _, after = rest.partition(END)
+    block = render_details(data, portuguese=path.name.endswith("pt-BR.md"))
+    updated = f"{before}{block}{after}"
+    if updated == text:
+        return False
+    path.write_text(updated)
+    return True
 
 
 def main() -> int:
@@ -267,6 +373,13 @@ def main() -> int:
         metavar="NAME",
         help="Drop a language entirely; repeatable",
     )
+    parser.add_argument(
+        "--update-readme",
+        action="append",
+        default=[],
+        metavar="PATH",
+        help="Rewrite the block between the stats markers in this README; repeatable",
+    )
     args = parser.parse_args()
 
     if args.fixture:
@@ -281,6 +394,32 @@ def main() -> int:
     for name, theme in THEMES.items():
         (out / f"stats-{name}.svg").write_text(render_stats(data, theme))
         (out / f"langs-{name}.svg").write_text(render_languages(data, theme))
+
+    # The interactive dashboard on the personal site reads this file, so it
+    # carries the per-repository detail the cards have no room for.
+    payload = {
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "profile": {
+            "name": data["name"],
+            "login": data.get("login", args.user),
+            "public_repos": data["public_repos"],
+            "followers": data["followers"],
+            "stars": data["stars"],
+            "own_repos": data["own_repos"],
+        },
+        "languages": [
+            {"name": name, "share": value / (sum(data["languages"].values()) or 1)}
+            for name, value in sorted(
+                data["languages"].items(), key=lambda kv: kv[1], reverse=True
+            )
+        ],
+        "repositories": data.get("repositories", []),
+    }
+    (out / "stats.json").write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
+
+    for readme in args.update_readme:
+        if update_readme(Path(readme), data):
+            print(f"  updated {readme}")
 
     print(
         f"{data['own_repos']} own repos, {data['stars']} stars, "

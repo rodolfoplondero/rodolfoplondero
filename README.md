@@ -85,17 +85,24 @@ My background is in Electrical Engineering (M.Sc., UFSM), which is why you'll fi
 ## GitHub Analytics
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-    <img height="165" src="assets/stats-light.svg" alt="Public repositories, stars earned, followers and languages used">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg">
-    <img height="165" src="assets/langs-light.svg" alt="Most used languages">
-  </picture>
+  <a href="https://rodolfoplondero.github.io/#analytics">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+      <img height="165" src="assets/stats-light.svg" alt="Public repositories, stars earned, followers and languages used">
+    </picture>
+  </a>
+  <a href="https://rodolfoplondero.github.io/#analytics">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg">
+      <img height="165" src="assets/langs-light.svg" alt="Most used languages">
+    </picture>
+  </a>
 </p>
 
-<sub align="center">Regenerated weekly by <a href=".github/workflows/stats.yml">a workflow in this repository</a>, so the cards do not depend on a third-party service being up.</sub>
+<p align="center"><sub>Regenerated weekly by <a href=".github/workflows/stats.yml">a workflow in this repository</a>. Click either card for the <a href="https://rodolfoplondero.github.io/#analytics">interactive version</a>.</sub></p>
+
+<!-- stats:start -->
+<!-- stats:end -->
 
 ---
 
