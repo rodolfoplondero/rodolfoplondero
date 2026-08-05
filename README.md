@@ -80,7 +80,7 @@ My background is in Electrical Engineering (M.Sc., UFSM), which is why you'll fi
 
 ## Certification
 
-- UiPath Specialized AI Associate
+[![UiPath Specialized AI Associate](https://img.shields.io/badge/UiPath-Specialized%20AI%20Associate-FA4616?style=flat&logo=uipath&logoColor=white)](https://credentials.uipath.com/197c563d-d0d9-47fe-8386-464202a8cdc5#acc.90ukQXih)
 
 ## GitHub Analytics
 
