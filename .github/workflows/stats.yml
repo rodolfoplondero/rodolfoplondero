@@ -27,19 +27,23 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Render the SVG cards
+      - name: Render the cards, the JSON feed and the README breakdown
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_stats.py --user ${{ github.repository_owner }}
+        run: |
+          python scripts/generate_stats.py \
+            --user ${{ github.repository_owner }} \
+            --update-readme README.md \
+            --update-readme README.pt-BR.md
 
       - name: Commit if anything changed
         run: |
-          if [ -z "$(git status --porcelain assets)" ]; then
+          if [ -z "$(git status --porcelain assets README.md README.pt-BR.md)" ]; then
             echo "Cards unchanged."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets
+          git add assets README.md README.pt-BR.md
           git commit -m "Update GitHub stat cards"
           git push
