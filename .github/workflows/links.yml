@@ -1,0 +1,34 @@
+name: Check links
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'README.md'
+      - 'README.pt-BR.md'
+      - '.github/workflows/links.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links in the profile READMEs
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # --no-progress keeps the log readable in CI.
+          # Instagram and X block automated requests, so they are excluded to
+          # avoid false failures; everything else must resolve.
+          args: >-
+            --no-progress
+            --max-retries 3
+            --exclude '^https?://(www\.)?(instagram\.com|x\.com|twitter\.com)'
+            README.md README.pt-BR.md
+          fail: true

@@ -1,51 +1,104 @@
-# 👋 Hi, I'm Rodolfo Londero
+<h1 align="center">Rodolfo Londero</h1>
 
-## 🛠️ RPA Developer & Automation Enthusiast
+<p align="center">
+  <b>Senior RPA Engineer</b> &nbsp;·&nbsp; UiPath Specialist &nbsp;·&nbsp; Technical Lead<br>
+  Electrical Engineer (M.Sc.) building enterprise automation
+</p>
 
-Welcome! I specialize in automating business processes and optimizing workflows using UiPath, VB.NET, C#, Python, and VBA. My passion is solving complex challenges with smart automation and AI-powered solutions.
+<p align="center">
+  <a href="https://rodolfoplondero.github.io"><img src="https://img.shields.io/badge/Website-rodolfoplondero.github.io-0e75b6?style=flat&logo=googlechrome&logoColor=white" alt="Website"></a>
+  <a href="https://www.linkedin.com/in/rodolfolondero"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:rodolfopl@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://x.com/rplondero"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" alt="X"></a>
+  <a href="https://instagram.com/rodolfoplondero"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram"></a>
+</p>
+
+<p align="center">
+  <b>English</b> &nbsp;|&nbsp; <a href="README.pt-BR.md">Português</a>
+</p>
 
 ---
 
-### 🧰 Tech Stack
-- **RPA:** UiPath  
-- **Languages:** VB.NET, C#, Python, VBA
+## About
 
-### 🎓 Certification
+I design, develop and lead end-to-end enterprise automation — from architecture and code review to production governance. My work centres on UiPath REFramework extended with custom components in C#, VB.NET and Python, so critical processes depend on APIs rather than fragile UI interactions.
+
+My background is in Electrical Engineering (M.Sc., UFSM), which is why you'll find power-systems and scientific-computing work sitting next to the RPA repositories here. Both sides feed each other: the engineering habits shape how I build automation, and automation makes the engineering work reproducible.
+
+- 🤖 Enterprise RPA with UiPath REFramework, attended and unattended
+- 🔗 Integrations with SAP, SharePoint, Microsoft 365 and REST APIs
+- ⚡ Power systems and scientific computing with OpenDSS, MATLAB, Ansys and Python
+- 🧠 Bringing AI into automation workflows
+- 📍 Alegrete, Rio Grande do Sul, Brazil
+
+## Tech Stack
+
+**Automation & .NET**
+
+![UiPath](https://img.shields.io/badge/UiPath-FA4616?style=flat&logo=uipath&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=csharp&logoColor=white)
+![VB.NET](https://img.shields.io/badge/VB.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![VBA](https://img.shields.io/badge/VBA-217346?style=flat&logo=microsoftexcel&logoColor=white)
+
+**Integrations & DevOps**
+
+![SAP](https://img.shields.io/badge/SAP-0FAAFF?style=flat&logo=sap&logoColor=white)
+![SharePoint](https://img.shields.io/badge/SharePoint-0078D4?style=flat&logo=microsoftsharepoint&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-005571?style=flat&logo=fastapi&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat&logo=azuredevops&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+
+**Engineering & Scientific Computing**
+
+<p>
+  <img src="matlab-ico.svg" height="20" align="top" alt=""> <b>MATLAB</b> &nbsp;&nbsp;
+  <img src="openDSS-ico.png" height="20" align="top" alt=""> <b>OpenDSS</b> &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Ansys-FFB71B?style=flat&logo=ansys&logoColor=black" align="top" alt="Ansys">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" align="top" alt="NumPy">
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white" align="top" alt="pandas">
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat" align="top" alt="Matplotlib">
+</p>
+
+## Featured Projects
+
+| Automation & RPA | Electrical Engineering |
+| --- | --- |
+| **[ConvertDateTime](https://github.com/rodolfoplondero/ConvertDateTime)** — UiPath automation that converts date/time values between arbitrary input and output formats. MIT licensed. | **[py_dss_vis](https://github.com/rodolfoplondero/py_dss_vis)** — Python package for visualising results produced by `py_dss_tools`, with a CI test suite. |
+| **[uipath-examples](https://github.com/rodolfoplondero/uipath-examples)** — Collection of UiPath workflow examples kept as a working reference. | **[opendss-codes](https://github.com/rodolfoplondero/opendss-codes)** — OpenDSS tutorials, including the material from the PES Day minicourse at UFSM. |
+| **[UiPath-Trainings-](https://github.com/rodolfoplondero/UiPath-Trainings-)** — Study notes on automation, AI and the UiPath Business Automation Platform. | **[mestrado-codes](https://github.com/rodolfoplondero/mestrado-codes)** — M.Sc. research code: Fluent–Maxwell coupling via a UDF in C, air property models and result plotting. |
+
+## Open Source
+
+- **[py_dss_interface](https://github.com/PauloRadatz/py_dss_interface)** — contributing to the Python interface for OpenDSS, used for power distribution system studies.
+
+## Certification
+
 - UiPath Specialized AI Associate
 
----
+## GitHub Analytics
 
-### 💡 What I Do
-- Build and deploy automation solutions  
-- Integrate AI into RPA workflows  
-- Optimize business operations through technology
-
----
-
-## 🌟 Open Source Contributions
-
-- Contributing to [py_dss_interface](https://github.com/PauloRadatz/py_dss_interface).
-
----
-
-## 📊 GitHub Analytics
-
-| ![Rodolfo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rodolfoplondero&show_icons=true&theme=radical) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rodolfoplondero&layout=compact&theme=radical) |
-|:----------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
-
----
-
-## 📬 Contact Me
-
-[![Email](https://img.shields.io/badge/-mail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rodolfopl@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/rodolfolondero)
-[![Instagram](https://img.shields.io/badge/-rodolfoplondero-E4405F?style=flat&logo=instagram)](https://instagram.com/rodolfoplondero)
-[![X](https://img.shields.io/badge/-rplondero-000000?style=flat&logo=x&logoColor=white)](https://x.com/rplondero)
-[![Profile Views](https://komarev.com/ghpvc/?username=rodolfoplondero&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/rodolfoplondero)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=rodolfoplondero&show_icons=true&hide_border=true&theme=tokyonight&cache_seconds=86400">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=rodolfoplondero&show_icons=true&hide_border=true&theme=default&cache_seconds=86400">
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=rodolfoplondero&show_icons=true&hide_border=true&cache_seconds=86400" alt="Rodolfo's GitHub stats">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rodolfoplondero&layout=compact&hide_border=true&theme=tokyonight&cache_seconds=86400">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rodolfoplondero&layout=compact&hide_border=true&theme=default&cache_seconds=86400">
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodolfoplondero&layout=compact&hide_border=true&cache_seconds=86400" alt="Top languages">
+  </picture>
+</p>
 
 ---
 
 <p align="center">
-  <b>Let’s build better automation together!</b> 🚀
-</p></p>
+  Open to conversations about automation, power systems and everything in between.<br>
+  <a href="https://rodolfoplondero.github.io">rodolfoplondero.github.io</a>
+</p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=rodolfoplondero&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views">
+</p>
