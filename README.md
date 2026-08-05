@@ -63,11 +63,16 @@ My background is in Electrical Engineering (M.Sc., UFSM), which is why you'll fi
 
 ## Featured Projects
 
-| Automation & RPA | Electrical Engineering |
-| --- | --- |
-| **[ConvertDateTime](https://github.com/rodolfoplondero/ConvertDateTime)** — UiPath automation that converts date/time values between arbitrary input and output formats. MIT licensed. | **[py_dss_vis](https://github.com/rodolfoplondero/py_dss_vis)** — Python package for visualising results produced by `py_dss_tools`, with a CI test suite. |
-| **[uipath-examples](https://github.com/rodolfoplondero/uipath-examples)** — Collection of UiPath workflow examples kept as a working reference. | **[opendss-codes](https://github.com/rodolfoplondero/opendss-codes)** — OpenDSS tutorials, including the material from the PES Day minicourse at UFSM. |
-| **[UiPath-Trainings-](https://github.com/rodolfoplondero/UiPath-Trainings-)** — Study notes on automation, AI and the UiPath Business Automation Platform. | **[mestrado-codes](https://github.com/rodolfoplondero/mestrado-codes)** — M.Sc. research code: Fluent–Maxwell coupling via a UDF in C, air property models and result plotting. |
+**Automation & RPA**
+
+- **[ConvertDateTime](https://github.com/rodolfoplondero/ConvertDateTime)** — UiPath automation that converts date/time values between arbitrary input and output formats. MIT licensed.
+- **[uipath-examples](https://github.com/rodolfoplondero/uipath-examples)** — Collection of UiPath workflow examples kept as a working reference.
+
+**Electrical Engineering**
+
+- **[py_dss_vis](https://github.com/rodolfoplondero/py_dss_vis)** — Python package for visualising results produced by `py_dss_tools`, with a CI test suite.
+- **[opendss-codes](https://github.com/rodolfoplondero/opendss-codes)** — OpenDSS tutorials, including the material from the PES Day minicourse at UFSM.
+- **[mestrado-codes](https://github.com/rodolfoplondero/mestrado-codes)** — M.Sc. research code: Fluent–Maxwell coupling via a UDF in C, air property models and result plotting.
 
 ## Open Source
 

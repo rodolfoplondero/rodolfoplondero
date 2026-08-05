@@ -63,11 +63,16 @@ Minha formação é em Engenharia Elétrica (mestrado pela UFSM), e é por isso 
 
 ## Projetos em destaque
 
-| Automação & RPA | Engenharia Elétrica |
-| --- | --- |
-| **[ConvertDateTime](https://github.com/rodolfoplondero/ConvertDateTime)** — Automação UiPath que converte valores de data/hora entre formatos de entrada e saída arbitrários. Licença MIT. | **[py_dss_vis](https://github.com/rodolfoplondero/py_dss_vis)** — Pacote Python para visualizar resultados gerados pelo `py_dss_tools`, com suíte de testes em CI. |
-| **[uipath-examples](https://github.com/rodolfoplondero/uipath-examples)** — Coletânea de exemplos de workflows UiPath mantida como referência de trabalho. | **[opendss-codes](https://github.com/rodolfoplondero/opendss-codes)** — Tutoriais de OpenDSS, incluindo o material do minicurso do PES Day na UFSM. |
-| **[UiPath-Trainings-](https://github.com/rodolfoplondero/UiPath-Trainings-)** — Notas de estudo sobre automação, IA e a UiPath Business Automation Platform. | **[mestrado-codes](https://github.com/rodolfoplondero/mestrado-codes)** — Códigos da pesquisa de mestrado: acoplamento Fluent–Maxwell via UDF em C, modelos de propriedades do ar e plotagem de resultados. |
+**Automação & RPA**
+
+- **[ConvertDateTime](https://github.com/rodolfoplondero/ConvertDateTime)** — Automação UiPath que converte valores de data/hora entre formatos de entrada e saída arbitrários. Licença MIT.
+- **[uipath-examples](https://github.com/rodolfoplondero/uipath-examples)** — Coletânea de exemplos de workflows UiPath mantida como referência de trabalho.
+
+**Engenharia Elétrica**
+
+- **[py_dss_vis](https://github.com/rodolfoplondero/py_dss_vis)** — Pacote Python para visualizar resultados gerados pelo `py_dss_tools`, com suíte de testes em CI.
+- **[opendss-codes](https://github.com/rodolfoplondero/opendss-codes)** — Tutoriais de OpenDSS, incluindo o material do minicurso do PES Day na UFSM.
+- **[mestrado-codes](https://github.com/rodolfoplondero/mestrado-codes)** — Códigos da pesquisa de mestrado: acoplamento Fluent–Maxwell via UDF em C, modelos de propriedades do ar e plotagem de resultados.
 
 ## Open Source
 
