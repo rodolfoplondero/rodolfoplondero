@@ -86,16 +86,16 @@ Minha formação é em Engenharia Elétrica (mestrado pela UFSM), e é por isso 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=rodolfoplondero&show_icons=true&hide_border=true&theme=tokyonight&cache_seconds=86400&locale=pt-br">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=rodolfoplondero&show_icons=true&hide_border=true&theme=default&cache_seconds=86400&locale=pt-br">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=rodolfoplondero&show_icons=true&hide_border=true&cache_seconds=86400&locale=pt-br" alt="Estatísticas do GitHub de Rodolfo">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+    <img height="165" src="assets/stats-light.svg" alt="Repositórios públicos, estrelas recebidas, seguidores e linguagens usadas">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rodolfoplondero&layout=compact&hide_border=true&theme=tokyonight&cache_seconds=86400&locale=pt-br">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rodolfoplondero&layout=compact&hide_border=true&theme=default&cache_seconds=86400&locale=pt-br">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodolfoplondero&layout=compact&hide_border=true&cache_seconds=86400&locale=pt-br" alt="Linguagens mais usadas">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg">
+    <img height="165" src="assets/langs-light.svg" alt="Linguagens mais usadas">
   </picture>
 </p>
+
+<sub align="center">Gerados semanalmente por <a href=".github/workflows/stats.yml">um workflow deste repositório</a>, então os cards não dependem de um serviço de terceiros estar no ar.</sub>
 
 ---
 
