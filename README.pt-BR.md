@@ -110,7 +110,7 @@ Minha formação é em Engenharia Elétrica (mestrado pela UFSM), e é por isso 
 | --- | ---: |
 | Python | 38.6% |
 | Jupyter Notebook | 17.1% |
-| HTML | 10.1% |
+| HTML | 10.0% |
 | JavaScript | 9.5% |
 | C# | 6.2% |
 | Dart | 6.1% |

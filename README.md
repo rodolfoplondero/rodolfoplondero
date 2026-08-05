@@ -110,7 +110,7 @@ My background is in Electrical Engineering (M.Sc., UFSM), which is why you'll fi
 | --- | ---: |
 | Python | 38.6% |
 | Jupyter Notebook | 17.1% |
-| HTML | 10.1% |
+| HTML | 10.0% |
 | JavaScript | 9.5% |
 | C# | 6.2% |
 | Dart | 6.1% |

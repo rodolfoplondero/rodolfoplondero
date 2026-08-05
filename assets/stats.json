@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T02:11:50Z",
+  "generated_at": "2026-08-05T02:45:18Z",
   "profile": {
     "name": "Rodolfo Londero",
     "login": "rodolfoplondero",
@@ -19,11 +19,11 @@
     },
     {
       "name": "HTML",
-      "share": 0.10060238393846706
+      "share": 0.10021855006566024
     },
     {
       "name": "JavaScript",
-      "share": 0.09471018812044897
+      "share": 0.09531679002133972
     },
     {
       "name": "C#",
@@ -43,7 +43,7 @@
     },
     {
       "name": "CSS",
-      "share": 0.02249182894996045
+      "share": 0.022269060921876513
     },
     {
       "name": "C",
@@ -106,9 +106,9 @@
       "url": "https://github.com/rodolfoplondero/rodolfoplondero",
       "description": "",
       "stars": 1,
-      "pushed_at": "2026-08-05T02:11:31Z",
+      "pushed_at": "2026-08-05T02:45:05Z",
       "languages": {
-        "Python": 10044
+        "Python": 15716
       }
     },
     {
@@ -254,10 +254,10 @@
       "url": "https://github.com/rodolfoplondero/rodolfoplondero.github.io",
       "description": "",
       "stars": 0,
-      "pushed_at": "2026-07-31T14:31:51Z",
+      "pushed_at": "2026-08-05T02:37:48Z",
       "languages": {
-        "JavaScript": 31976,
-        "CSS": 20615,
+        "JavaScript": 33510,
+        "CSS": 20908,
         "HTML": 16444
       }
     },
