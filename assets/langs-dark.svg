@@ -18,19 +18,19 @@
   <g class="grow" clip-path="url(#bar)">
     <rect x="25.00" y="55" width="112.03" height="10" fill="#3572A5"/>
     <rect x="137.03" y="55" width="49.64" height="10" fill="#DA5B0B"/>
-    <rect x="186.68" y="55" width="29.06" height="10" fill="#e34c26"/>
-    <rect x="215.74" y="55" width="27.64" height="10" fill="#f1e05a"/>
-    <rect x="243.38" y="55" width="18.12" height="10" fill="#178600"/>
-    <rect x="261.51" y="55" width="17.55" height="10" fill="#00B4AB"/>
+    <rect x="186.68" y="55" width="28.27" height="10" fill="#e34c26"/>
+    <rect x="214.95" y="55" width="28.26" height="10" fill="#f1e05a"/>
+    <rect x="243.20" y="55" width="18.12" height="10" fill="#178600"/>
+    <rect x="261.33" y="55" width="17.55" height="10" fill="#00B4AB"/>
   </g>
   <circle class="fade" style="animation-delay: 0.35s" cx="30" cy="86" r="5" fill="#3572A5"/>
   <text class="fade" style="animation-delay: 0.35s" x="41" y="90" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">Python <tspan fill="#8b949e">38.6%</tspan></text>
   <circle class="fade" style="animation-delay: 0.43s" cx="180" cy="86" r="5" fill="#DA5B0B"/>
   <text class="fade" style="animation-delay: 0.43s" x="191" y="90" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">Jupyter Notebook <tspan fill="#8b949e">17.1%</tspan></text>
   <circle class="fade" style="animation-delay: 0.51s" cx="30" cy="108" r="5" fill="#e34c26"/>
-  <text class="fade" style="animation-delay: 0.51s" x="41" y="112" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">HTML <tspan fill="#8b949e">10.0%</tspan></text>
+  <text class="fade" style="animation-delay: 0.51s" x="41" y="112" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">HTML <tspan fill="#8b949e">9.7%</tspan></text>
   <circle class="fade" style="animation-delay: 0.59s" cx="180" cy="108" r="5" fill="#f1e05a"/>
-  <text class="fade" style="animation-delay: 0.59s" x="191" y="112" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">JavaScript <tspan fill="#8b949e">9.5%</tspan></text>
+  <text class="fade" style="animation-delay: 0.59s" x="191" y="112" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">JavaScript <tspan fill="#8b949e">9.7%</tspan></text>
   <circle class="fade" style="animation-delay: 0.67s" cx="30" cy="130" r="5" fill="#178600"/>
   <text class="fade" style="animation-delay: 0.67s" x="41" y="134" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">C# <tspan fill="#8b949e">6.2%</tspan></text>
   <circle class="fade" style="animation-delay: 0.75s" cx="180" cy="130" r="5" fill="#00B4AB"/>
