@@ -18,10 +18,10 @@
   <g class="grow" clip-path="url(#bar)">
     <rect x="25.00" y="55" width="112.03" height="10" fill="#3572A5"/>
     <rect x="137.03" y="55" width="49.64" height="10" fill="#DA5B0B"/>
-    <rect x="186.68" y="55" width="28.27" height="10" fill="#e34c26"/>
-    <rect x="214.95" y="55" width="28.26" height="10" fill="#f1e05a"/>
-    <rect x="243.20" y="55" width="18.12" height="10" fill="#178600"/>
-    <rect x="261.33" y="55" width="17.55" height="10" fill="#00B4AB"/>
+    <rect x="186.68" y="55" width="28.24" height="10" fill="#e34c26"/>
+    <rect x="214.92" y="55" width="28.17" height="10" fill="#f1e05a"/>
+    <rect x="243.09" y="55" width="18.12" height="10" fill="#178600"/>
+    <rect x="261.22" y="55" width="17.55" height="10" fill="#00B4AB"/>
   </g>
   <circle class="fade" style="animation-delay: 0.35s" cx="30" cy="86" r="5" fill="#3572A5"/>
   <text class="fade" style="animation-delay: 0.35s" x="41" y="90" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Ubuntu,Helvetica,Arial,sans-serif" font-size="12" fill="#e6edf3">Python <tspan fill="#8b949e">38.6%</tspan></text>
